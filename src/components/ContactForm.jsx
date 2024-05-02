@@ -42,6 +42,7 @@ function ContactForm() {
       <label>
         Name:
         <input
+          style={{ margin: '9px' }}
           type="text"
           name="name"
           value={name}
